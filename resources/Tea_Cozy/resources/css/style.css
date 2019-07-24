@@ -1,0 +1,143 @@
+/* Universal Styles */
+
+body, html {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  background-color: black;
+  font-size: 22px;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+}
+
+h2,h3,h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Header */
+header{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width:100%;
+  height:69px;
+  border-bottom:1px solid seashell;
+  background-color: black;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.logo img{
+  height: 50px;
+  padding-left: 10px;
+}
+
+a{
+  color: seashell;
+  padding-left: 30px;
+  text-decoration: underline;
+  justify-content: space-between;
+  padding-right: 25px
+}
+
+
+/* Main */
+
+.main {
+  width: 1200px;
+  opacity: 0.9;
+  margin: auto;
+  padding-top: 69px;
+}
+
+/* Mission Row */
+
+#mission {
+  height: 700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  padding-top: 70px;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+/* Second Row */
+
+#store {
+  margin: auto;
+  height: 700px;
+  width: 1000px;
+  padding-top: 70px;
+}
+
+.tea {
+  padding: 5px;
+}
+
+.tea img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.tea span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Address Row */
+
+.flex-container.locations {
+  padding-top: 5px;
+}
+
+#locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  padding-top: 70px;
+}
+
+#locations .flex-container {
+  margin: auto;
+  width: 1100px;
+}
+
+.location {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*footer*/
+
+footer {
+  position: relative;
+  text-align: left;
+  padding-left: 20px;
+  height:200px;
+}

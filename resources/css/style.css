@@ -1,0 +1,102 @@
+
+/* Universal Styles */
+
+body, html {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  color: black;
+  background-color: seashell;
+  font-size: 22px;
+  text-align: center;
+
+}
+
+a {
+  color: black;
+}
+
+h1,h2, {
+  margin: 0;
+  padding: 10px;
+}
+
+.flex-container.projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Header */
+header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    width:100%;
+    height:69px;
+    border: 3px solid black;
+    background-color: seashell;
+  }
+
+
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 20px;
+}
+
+.logo img{
+  height: 60px;
+  padding-left: 10px;
+}
+/*
+a{
+  color: seashell;
+  padding-left: 30px;
+  text-decoration: underline;
+  justify-content: space-between;
+  padding-right: 25px
+}
+
+
+/* Main */
+
+.main {
+  width: 1200px;
+  opacity: 0.9;
+  margin: auto;
+  padding-top: 69px;
+}
+
+
+/* Projects */
+
+#My-Projects {
+  margin: auto;
+  height: 700px;
+  width: 1000px;
+  padding-top: 70px;
+}
+
+.project {
+  padding: 5px;
+}
+
+.project img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+.project span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.flex-container.projects {
+  padding-top: 5px;
+}
